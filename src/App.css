@@ -1,3 +1,4 @@
+
 .container {
   text-align: center;
   margin-top: 50px;
@@ -29,3 +30,11 @@ align-items: center;
 .clear-all:hover {
   cursor: pointer;
 }
+
+@media (max-width: 480px) {
+  .div-total {
+    width: 80%;
+  }
+
+}
+

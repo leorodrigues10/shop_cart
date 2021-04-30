@@ -4,6 +4,7 @@
     color: white;
     width: 100%;
 }
+
 .header-content {
     display: flex;
     justify-content: space-between;
@@ -11,14 +12,17 @@
     width: 40%;
     margin: 0 auto;
 }
-.cart i{
+
+.cart i {
     font-size: 20px;
 }
-.header h1{
+
+.header h1 {
     padding: 0;
     margin: 0;
     font-size: 30px;
 }
+
 .quantity {
     text-align: center;
     background-color: #3180E8;
@@ -33,4 +37,16 @@
     border-radius: 50%;
     margin-left: -10px;
     margin-top: -10px;
+}
+
+@media (max-width: 480px) {
+    .header-content {
+        width: 80%;
+    }
+    .header h1 {
+        font-size: 20px;
+    }
+    .cart i {
+        font-size: 15px;
+    }
 }

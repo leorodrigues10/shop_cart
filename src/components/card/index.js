@@ -10,14 +10,20 @@ function Card(props) {
     const inc = () => {
         props.find(props.product.id, 'inc')
         dispatch(increment(props.product.price))
+
     }
 
     const dec = () => {
         props.find(props.product.id, 'dec')
         dispatch(decrement(props.product.price))
+
+        if(props.product.quantity === 0) {
+            rem();
+        }
     }
 
     const rem = () => {
+
         props.remove(props.product.id);
 
         const productData = {

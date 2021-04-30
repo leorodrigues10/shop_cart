@@ -1,0 +1,59 @@
+.prod-img img {
+    width: 80px;
+}
+.prod-img {
+    display: flex;
+
+}
+.prod-img p {
+    padding: 0;
+    margin: 0;
+}
+.prod-price {
+    font-size: 12px;
+    color: #55C6E9;
+}
+.prod-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    width: 40%;
+    margin-top: 15px;
+}
+.counter {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.counter p {
+    padding: 10px;
+}
+.counter i:hover {
+    background-color: rgb(221, 221, 221);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.counter i {
+    color:  #55C6E9;
+    padding: 3px 10px;
+
+}
+
+.trash {
+    padding: 30px;
+    font-size: 20px;
+    color: rgb(235, 21, 21);
+}
+.trash i:hover {
+    cursor: pointer;
+}
+
